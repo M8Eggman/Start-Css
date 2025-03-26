@@ -301,6 +301,19 @@ footer {
   color: white;
 }
 
+/* commun entre écran tablette et smartphone */
+@media (max-width: 768px) {
+  .sectionContactForm input {
+    width: 90vw;
+  }
+  .footerIcone {
+    flex-wrap: wrap;
+  }
+  .sectionAboutP p {
+    width: 45vw;
+  }
+}
+
 /* écran smartphone */
 @media (max-width: 576px) {
   nav {
@@ -351,18 +364,5 @@ footer {
 @media (min-width: 577px) and (max-width: 768px) {
   .footerSectionDiv > div {
     width: 30vw;
-  }
-}
-
-/* commun entre écran tablette et smartphone */
-@media (max-width: 768px) {
-  .sectionContactForm input {
-    width: 90vw;
-  }
-  .footerIcone {
-    flex-wrap: wrap;
-  }
-  .sectionAboutP p {
-    width: 45vw;
   }
 }
