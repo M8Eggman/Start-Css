@@ -344,9 +344,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .sectionStartH1 h1 {
-    text-align: center;
-  }
+  .sectionStartH1 h1,
   .sectionStartP p {
     text-align: center;
   }
