@@ -244,6 +244,9 @@ footer {
 
 /* écran smartphone */
 @media (max-width:576px) {
+    nav {
+        padding-inline: 10px;
+    }
     .footerSectionDiv {
         flex-wrap: wrap;
     }
@@ -260,17 +263,28 @@ footer {
         width: 50vw;
     }
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .sectionAboutP {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .sectionStartP {
+    .sectionStartH1 h1 {
         text-align: center;
+    }
+    .sectionStartP p {
+        text-align: center;
+    }
+    .sectionStartImg img {
+        width: 75vw;
+    }
+    #sectionStart {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
